@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="container">
+        <form action="/post" method="post" >
+            <label for="regd_no"> Transaction ID : </label>
+            <input type="text" id="regd_no" name="regd_no" >
+            <label for="name">Name : </label>
+            <input type="text" name="name" id="name">
+            <label for="email">Email : </label>
+            <input type="email" name="email" >
+            <label for="phno">Phone No :</label>
+            <input type="phno" name="phno">
+            <label for="pack">Pack :</label>
+            <select name="pacl" id="pack">
+                <option value="Elite">Elite</option>
+                <option value="Pro">Pro</option>
+                <option value="Pro+">Pro+</option>
+                <option value="Premium">Premium</option>
+            </select>
+            <button type="submit" >Submit</button>
+
+        </form>
+    </div>
+</body>
+</html>
